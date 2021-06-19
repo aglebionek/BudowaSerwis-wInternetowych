@@ -1,4 +1,5 @@
 # InternetServicesUniCourse
+<p>Currently still hosted on http://aglebionek.infinityfreeapp.com/</p>
 <p>A basic web developement course taken at uni.</p>
 <h2>Included languages and technologies</h2>
 <p>HTML</p>
