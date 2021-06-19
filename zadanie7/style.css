@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.table__container {
+    height: 80vh;
+    width: 85vw;
+}
+
+.table__rows {
+    display: grid;
+    overflow-y: auto;
+    width: 100%;
+    grid-template-columns: 7% 27.5% 27.5% 12% 13% 13%;
+    grid-template-rows: max-content;
+    margin: 0px;
+}
+
+.table__rows > p {
+    text-align: center;
+    border: 1px solid black;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.table__input {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 7% 27.5% 27.5% 12% 26%;
+    margin-top: 10px;
+}
+
+.table__input > input, .table__input > button, .table__rows > input {
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.table__input > input:focus, .table__rows > input:focus {
+    outline: none;
+}
+
+.logout {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}

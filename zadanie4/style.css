@@ -1,0 +1,23 @@
+form {
+    display: inline-block;
+}
+body {
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+input[type=text], input[type=tel], input[type=password], input[type=date], select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+    cursor: pointer;
+}
+input:invalid, select:invalid {
+    border: red solid 3px;
+}
+input[type='radio']:invalid {
+    outline: red solid 1px;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="testowy.xslt"?>
+<Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Number>161C</Number>
+	<City>Warszawa</City>
+	<Date>19.04.2021</Date>
+	<Seller>
+		<Person>
+			<Name>Jan</Name>
+			<Surname>Kowalski</Surname>
+			<Company>Kowalski Co.</Company>
+		</Person>
+	</Seller>
+	<Buyer>
+		<Person>
+			<Name>Piotr</Name>
+			<Surname>Janowski</Surname>
+			<Company>Janowski Inc.</Company>
+		</Person>
+	</Buyer>
+	<Goods>
+		<Good>
+			<Name>Biurko</Name>
+			<Unit>szt.</Unit>
+			<Quantity>10</Quantity>
+			<Price>119.99</Price>
+		</Good>
+		<Good>
+			<Name>Kawa</Name>
+			<Unit>kg</Unit>
+			<Quantity>3</Quantity>
+			<Price>40.35</Price>
+		</Good>
+		<Good>
+			<Name>Klawiatura</Name>
+			<Unit>szt.</Unit>
+			<Quantity>10</Quantity>
+			<Price>30</Price>
+		</Good>
+		<Good>
+			<Name>Mysz</Name>
+			<Unit>szt.</Unit>
+			<Quantity>10</Quantity>
+			<Price>25</Price>
+		</Good>
+		<Good>
+			<Name>Słuchawki z mikrofonem</Name>
+			<Unit>szt.</Unit>
+			<Quantity>10</Quantity>
+			<Price>49.99</Price>
+		</Good>
+	</Goods>
+</Data>
